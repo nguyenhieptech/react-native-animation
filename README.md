@@ -19,14 +19,13 @@ git clone https://github.com/nguyenhieptech/react-native-animation
 2. Install dependencies
 
 ```bash
-cd react-native-movie-app
+cd react-native-animation
 yarn install
 ```
 
 3. Pod install for iOS
 
 ```bash
-# Update: 17/01/2023
 # Currently, macOS 12.5.1 is shipped with Ruby 2.6.8, which is not what is required by React Native.
 # You should use a Ruby version manager like rbenv or rvm to install
 # and use ruby version '2.7.6' before pod install.
@@ -54,6 +53,4 @@ yarn android
 
 ## Local Development Information
 
-MacBook Air M1 2020
-Memory 16GB
-Storage 512GB
+MacBook Air M1 2020, Ram 16GB, SSD 512GB
