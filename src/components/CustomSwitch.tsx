@@ -1,7 +1,7 @@
 import { MotiView } from 'moti';
 import React, { Dispatch, SetStateAction } from 'react';
 import { Pressable } from 'react-native';
-import { globalThemeObject } from 'src/theme';
+import { globalTheme } from 'src/theme';
 
 type CustomSwitchProps = {
   active: boolean;
@@ -17,8 +17,8 @@ export function CustomSwitch(props: CustomSwitchProps) {
         className="h-6 w-9 justify-center rounded-full p-0.5"
         animate={{
           backgroundColor: active
-            ? globalThemeObject.colors.primary
-            : globalThemeObject.colors['gray-600'],
+            ? globalTheme.colors.primary
+            : globalTheme.colors['gray-600'],
         }}
         transition={{ type: 'timing', duration: 300 }}
       >

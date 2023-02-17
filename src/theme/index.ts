@@ -1,4 +1,4 @@
-export const globalThemeObject = {
+export const globalTheme = {
   colors: {
     primary: '#00DAC0',
     mistake1: '#FAEBEB',
@@ -16,4 +16,4 @@ export const globalThemeObject = {
   },
 };
 
-export type GlobalThemeObject = typeof globalThemeObject;
+export type GlobalThemeType = typeof globalTheme;

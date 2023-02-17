@@ -6,7 +6,7 @@ import Animated, {
   useDerivedValue,
   withTiming,
 } from 'react-native-reanimated';
-import { globalThemeObject } from 'src/theme';
+import { globalTheme } from 'src/theme';
 
 const colors = {
   dark: {
@@ -82,9 +82,9 @@ export function InterpolateColor() {
           }}
           trackColor={{
             true: 'white',
-            false: globalThemeObject.colors['gray-600'],
+            false: globalTheme.colors['gray-600'],
           }}
-          thumbColor={globalThemeObject.colors.primary}
+          thumbColor={globalTheme.colors.primary}
         />
       </Animated.View>
     </Animated.View>
