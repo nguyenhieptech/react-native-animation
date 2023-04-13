@@ -37,7 +37,11 @@
     "notifee",
     "moti",
     "motiview",
-    "tailwindcss"
+    "tailwindcss",
+    "gorhom",
+    "modalize",
+    "portalize",
+    "swmansion"
   ],
   // flagWords - list of words to be always considered incorrect
   // This is useful for offensive words and common spelling errors.
