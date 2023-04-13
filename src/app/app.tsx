@@ -1,22 +1,20 @@
-import { SafeAreaView, View } from 'react-native';
-import {
-  ViewableAnimatedFlatList,
-  LayoutAnimation,
-  InterpolateColor,
-  GestureDetectorQuickStart,
-  GestureHandlerIntroduction,
-} from 'src/animations';
-import { Fonts } from 'src/components';
+import { View } from 'react-native';
+import { Host } from 'react-native-portalize';
+import { InterpolateColor, ViewableAnimatedFlatList } from 'src/animations';
+import { BottomSheetPractice } from 'src/components';
 import { AppProvider } from 'src/providers';
 
 export default function App() {
   return (
     <AppProvider>
-      <View className="flex-1">
-        {/* <InterpolateColor /> */}
-        {/* <ViewableAnimatedFlatList /> */}
-        <Fonts />
-      </View>
+      <Host>
+        <View className="flex-1">
+          <InterpolateColor />
+          {/* <ViewableAnimatedFlatList /> */}
+          {/* <Fonts /> */}
+          {/* <BottomSheetPractice /> */}
+        </View>
+      </Host>
     </AppProvider>
   );
 }
